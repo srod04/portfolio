@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: #042c52;
+    font-family: Helvetica, Arial, sans-serif;
+}
+header {
+    padding: 20px 35px;
+    background-color: rgb(42, 44, 49);
+}
+  
+header a {
+    color: #86fff9ef;
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #86fff9ef;
+    color: #042c52;
+    margin: 0;
+    display: inline;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+  }
+
+header nav ul li a {
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    padding: 40px 35px;
+
+}
+
+footer h2 {
+    display: inline;
+    font-size: 50px;
+}
+
+.section-border {
+    color: #042c52 ;
+    border-right: 5px solid;
+    display: inline-block;
+    padding-bottom: 20px;
+    text-align: right;
+    margin: 0 auto 35px;
+}
+
+
+footer ul {
+    display: inline;
+}
+
+footer ul li {
+    display: inline;
+    float: right;
+    text-align: center;
+    margin: 0px 60px;
+
+}
+
+footer nav ul li a {
+    margin: auto;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+footer a:link {
+    color: #042c52;
+    background-color: transparent; 
+    text-decoration: solid underline #042c52 3px;
+}
+
+footer a:visited {
+    color: #042c52;
+    background-color: transparent;
+    text-decoration: solid underline #042c52 3px;
+  }
+
+  footer a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .hero {
+    background-image:url(../images/tech.jpeg) ;
+    height: 200px;
+  }
+  .hero h2 {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #86fff9ef;
+    color: #042c52;
+    margin-top: 150px;
+    float: right;
+  }
