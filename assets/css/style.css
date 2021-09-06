@@ -45,18 +45,23 @@ footer {
 
 }
 
-footer h2 {
+h2  {
     display: inline;
     font-size: 50px;
+}
+
+p {
+    display: inline;
+    text-align: center;
+    float: right;
 }
 
 .section-border {
     color: #042c52 ;
     border-right: 5px solid;
     display: inline-block;
-    padding-bottom: 20px;
     text-align: right;
-    margin: 0 auto 35px;
+    
 }
 
 
@@ -107,4 +112,8 @@ footer a:visited {
     color: #042c52;
     margin-top: 150px;
     float: right;
+  }
+
+  .about-me{
+      display: flex;
   }
